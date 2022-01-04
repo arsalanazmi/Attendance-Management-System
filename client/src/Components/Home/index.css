@@ -1,0 +1,47 @@
+.header {
+  /* margin: 0 auto; */
+  margin: -1% 0 3% 0;
+  display: flex;
+  justify-content: center;
+}
+.header-img {
+  width: 47%;
+}
+.select-panel {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 1% 0 0 0;
+}
+.select-panel img:hover {
+  opacity: 0.5;
+}
+.admin-logo {
+  width: 15%;
+  height: 45%;
+}
+.employee-logo {
+  width: 30%;
+  height: 48%;
+}
+h6 {
+  color: black;
+}
+p:hover {
+  opacity: 0.5;
+}
+@media only screen and (max-width: 600px) {
+  .header{
+    margin-bottom: 5%;
+  }
+  .header-img {
+    width: 100%;
+  }
+  .admin-logo {
+    width: 45% !important;
+  }
+  .employee-logo {
+    width: 45% !important;
+  }
+}

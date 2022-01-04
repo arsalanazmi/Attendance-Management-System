@@ -1,0 +1,6 @@
+export {default as Background} from "./background.jpg"
+export {default as AdminBackground} from "./AdminBackground.jpg"
+export {default as EmployeeBackground} from "./EmployeeBackground.jpg"
+export {default as Header} from "./home.png"
+export {default as Admin} from "./admin.png"  
+export {default as Employee} from "./employee.png"  
